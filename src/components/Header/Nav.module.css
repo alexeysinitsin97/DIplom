@@ -1,41 +1,65 @@
 .nav {
-  display: flex;
-  background-color: #131414;
-  opacity: 0.9;
-  padding: 10px;
-  color: #c9c9c9;
-  position: fixed;
-  width: 100%;
+    display: flex;
+    background-color: #131414;
+    opacity: 0.9;
+    padding: 10px;
+    color: #c9c9c9;
+    position: fixed;
+    width: 100%;
 }
 
 .navContent {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .item {
- padding-right: 30px;
- font-size: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.item:last-child {
+    padding-right: 0;
 }
 
 .nav a:hover {
-  color: rgb(251, 0, 0);
+    color: rgb(251, 0, 0);
 }
 
 .item .active {
-  color: rgb(134, 4, 4);
+    color: rgb(134, 4, 4);
 }
 
 .itemLogoImg {
-  width: 150px;
-  height: 50px;
-
+    width: 150px;
+    height: 50px;
 }
 
 .navLink {
-  display: flex;
+    display: flex;
+}
+
+@media (max-width:952px) {
+    .item {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    .itemLogoImg {
+        width: 100px;
+        height: 30px;
+    }
+    @media (max-width:740px) {
+        .navContent {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .item {
+            font-size: 14px;
+            padding-right: 10px;
+        }
+    }
 }

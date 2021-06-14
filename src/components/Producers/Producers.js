@@ -27,10 +27,10 @@ const ProdItem = (props) =>{
     return(
         <div className={s.prodItem}>
             <div>
-                <a src="#"><img src={props.img} className={s.catalogImg} /></a>
+                <a href="https://www.honeywell.com/us/en" target="blank"><img src={props.img} className={s.catalogImg} /></a>
             </div>
             <div className={s.country}>
-            <a src="#">{props.country}</a>
+            <a href="https://ru.wikipedia.org/wiki/Страна" target="blank">{props.country}</a>
             </div>
         </div>
     )

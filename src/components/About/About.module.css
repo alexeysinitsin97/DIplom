@@ -8,7 +8,6 @@
     padding-top: 105px;
     background-color: black;
     height: 100vh;
-
 }
 
 .catalogContent {
@@ -70,23 +69,23 @@
 }
 
 .galeryItemImg {
-    align-items:center;
+    align-items: center;
     width: 21%;
     padding-bottom: 20px;
     transition-duration: 0.5s;
     cursor: pointer;
-
 }
-.text{
+
+.text {
     display: flex;
     align-items: baseline;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-   
 }
-.textP{
+
+.textP {
     width: 170px;
 }
 
@@ -96,12 +95,12 @@
     transition-duration: 0.5s;
     border-radius: 50px;
 }
+
 .catalogImg:hover {
     transition-duration: 0.5s;
     transform: scale(1.1);
     margin-bottom: 20px;
 }
-
 
 .catalogIcon {
     width: 50px;
@@ -134,4 +133,19 @@
 .catalogItem {
     margin-bottom: 15px;
     min-width: 300px;
+}
+
+@media (max-width:800px) {
+    .galeryItemImg {
+        width: 300px;
+    }
+    .galeryContent {
+        height: auto;
+    }
+}
+
+@media (max-width:675px) {
+    .galeryItemImg {
+        width: 250px;
+    }
 }

@@ -8,6 +8,8 @@
   width: 100%;
   min-height: 100vh;
   background: url(./image/fon.jpg) 50%/cover;
+  display: grid;
+
 }
 
 .app-wrapper-content {
@@ -27,7 +29,6 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  padding-top: 500px;
   
 }
 .homeContent h1 {

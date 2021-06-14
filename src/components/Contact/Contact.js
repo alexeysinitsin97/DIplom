@@ -10,7 +10,7 @@ const ContactItem =(props)=>{
     <div className={s.itemContent}>
       <div><img src={props.img} className={s.icon}/></div>
       <div className={s.title}>{props.title}</div>
-      <div className={s.paragraph_other}>{props.contact}</div>
+      <a href={`${props.atr}: ${props.contact}`} className={s.paragraph_other}>{props.contact}</a>
     </div>
   )
 }
@@ -27,16 +27,19 @@ let Contact = (props) => {
             img={img1}
             title={"АДРЕСС"}
             contact={"Прудской пер. 69"}
+            atr={"address"}
           />
           <ContactItem 
             img={img2}
             title={"ТЕЛЕФОН"}
             contact={"(3852)-75-00-12"}
+            atr={"tel"}
           />
           <ContactItem 
             img={img3}
             title={"ПОЧТА"}
             contact={"promsnab@mail.ru"}
+            atr={"malito"}
           />
         </div>
         <div className={s.map}>
