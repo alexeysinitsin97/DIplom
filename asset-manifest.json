@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DIplom/static/css/main.a198d29f.chunk.css",
+    "main.css": "/DIplom/static/css/main.9f18c99f.chunk.css",
     "main.js": "/DIplom/static/js/main.f057d38a.chunk.js",
     "main.js.map": "/DIplom/static/js/main.f057d38a.chunk.js.map",
     "runtime-main.js": "/DIplom/static/js/runtime-main.f6bdbdef.js",
@@ -10,7 +10,7 @@
     "static/js/3.ca0faa73.chunk.js": "/DIplom/static/js/3.ca0faa73.chunk.js",
     "static/js/3.ca0faa73.chunk.js.map": "/DIplom/static/js/3.ca0faa73.chunk.js.map",
     "index.html": "/DIplom/index.html",
-    "static/css/main.a198d29f.chunk.css.map": "/DIplom/static/css/main.a198d29f.chunk.css.map",
+    "static/css/main.9f18c99f.chunk.css.map": "/DIplom/static/css/main.9f18c99f.chunk.css.map",
     "static/js/2.433f6fa9.chunk.js.LICENSE.txt": "/DIplom/static/js/2.433f6fa9.chunk.js.LICENSE.txt",
     "static/media/1.9c9abd64.jpg": "/DIplom/static/media/1.9c9abd64.jpg",
     "static/media/1.ae95fe59.jpg": "/DIplom/static/media/1.ae95fe59.jpg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6bdbdef.js",
     "static/js/2.433f6fa9.chunk.js",
-    "static/css/main.a198d29f.chunk.css",
+    "static/css/main.9f18c99f.chunk.css",
     "static/js/main.f057d38a.chunk.js"
   ]
 }
