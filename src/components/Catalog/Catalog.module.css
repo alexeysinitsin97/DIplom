@@ -122,6 +122,21 @@
     ;
 }
 
+@media (max-width:900px) {
+    .catalogItem1 {
+        background: url('../../image/photosite/bruno-oliveira-X5gLwM79QOQ-unsplash.jpg') 50%/cover;
+    }
+    .catalogItem2 {
+        background: url('../../image/photosite/chromatograph-DtR9muktZy0-unsplash.jpg') 50%/cover;
+    }
+    .catalogItem3 {
+        background: url('../../image/photosite/kevin-butz-U-4b9CMcr7k-unsplash.jpg') 50%/cover;
+    }
+    .catalogItem4 {
+        background: url('../../image/photosite/michal-matlon-UYFdIJizrt8-unsplash.jpg') 50%/cover;
+    }
+}
+
 @media (max-width:675px) {
     .catalogItems {
         display: flex;
