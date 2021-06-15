@@ -63,3 +63,16 @@
         }
     }
 }
+
+@media (max-width:600px) {
+    .navLink {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 69px;
+        justify-content: flex-end;
+        width: 300px;
+    }
+    /* .item {
+        width: 33%;
+    } */
+}

@@ -7,8 +7,6 @@
     flex-direction: column;
     padding-top: 85px;
     background-color: black;
-
-
 }
 
 .catalogContent {
@@ -40,7 +38,6 @@
     color: red;
     background-color: white;
     border: 2px solid red;
-
 }
 
 .catalogLINK a {
@@ -52,7 +49,6 @@
 }
 
 .catalogLine {
-
     width: 150px;
     margin-bottom: 20px;
     height: 2px;
@@ -75,7 +71,6 @@
     padding-bottom: 20px;
     transition-duration: 0.5s;
     cursor: pointer;
-
 }
 
 .catalogImg {
@@ -84,11 +79,11 @@
     transition-duration: 0.5s;
     border-radius: 50px;
 }
+
 .catalogImg:hover {
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
-
 
 .catalogIcon {
     width: 50px;
@@ -118,7 +113,8 @@
     margin-left: 40px;
     color: red;
 }
-.paragraph_other{
+
+.paragraph_other {
     padding-bottom: 10px;
     color: red;
 }
@@ -127,37 +123,62 @@
     margin-bottom: 15px;
     min-width: 300px;
 }
-.icon{
+
+.icon {
     width: 50px;
 }
-.itemContent{
+
+.itemContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-bottom: 20px;
 }
-.itemContent:nth-child(2){
+
+.itemContent:nth-child(2) {
     padding-left: 40px;
     padding-right: 40px;
     margin-right: 40px;
     margin-left: 40px;
-    border-left:2px solid red;
-    border-right:2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
 }
-.catalogContent{
+
+.catalogContent {
     display: flex;
     justify-content: center;
-    align-items:center;
-    background-color:black;
+    align-items: center;
+    background-color: black;
 }
-.ContactContent{
+
+.ContactContent {
     height: 100%;
 }
-.map{
+
+.map {
     height: 100%;
 }
-.map iframe{
+
+.map iframe {
     width: 100%;
     height: 640px;
+}
+
+@media (max-width:600px) {
+    .itemContent:nth-child(2) {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:430px) {
+    .catalogContent {
+        flex-wrap: wrap;
+    }
+    .itemContent:nth-child(2) {
+        border: none;
+    }
 }

@@ -7,8 +7,6 @@
     flex-direction: column;
     padding-top: 85px;
     background-color: black;
-
-
 }
 
 .catalogContent {
@@ -40,7 +38,6 @@
     color: red;
     background-color: white;
     border: 2px solid red;
-
 }
 
 .catalogLINK a {
@@ -52,7 +49,6 @@
 }
 
 .catalogLine {
-
     width: 150px;
     margin-bottom: 20px;
     height: 2px;
@@ -75,20 +71,19 @@
     padding-bottom: 20px;
     transition-duration: 0.5s;
     cursor: pointer;
-
 }
 
 .catalogImg {
     width: 100%;
     height: 26.25%;
     transition-duration: 0.5s;
-    border-radius: 50px;
+    border-radius: 30px;
 }
+
 .catalogImg:hover {
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
-
 
 .catalogIcon {
     width: 50px;
@@ -121,4 +116,19 @@
 .catalogItem {
     margin-bottom: 15px;
     min-width: 300px;
+}
+
+@media (max-width:600px) {
+    .galeryItemImg {
+        width: 150px;
+    }
+}
+
+@media (max-width:390px) {
+    .galeryItemImg {
+        width: 130px;
+    }
+    .headerContainer {
+        padding-top: 120px;
+    }
 }

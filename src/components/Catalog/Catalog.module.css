@@ -140,3 +140,9 @@
         align-items: center;
     }
 }
+
+@media (max-width:390px) {
+    .headerContainer {
+        padding-top: 120px;
+    }
+}
